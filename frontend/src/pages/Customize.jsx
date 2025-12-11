@@ -7,7 +7,7 @@ import image4 from "../assets/image4.png"
 import image5 from "../assets/image5.png"
 import { IoMdArrowBack } from "react-icons/io";
 import { FaFileUpload } from "react-icons/fa";
-import { userDataContext } from '../context/userContext'
+import { userDataContext } from '../context/UserContext'
 import { useNavigate } from 'react-router-dom'
 
 const Customize = () => {
