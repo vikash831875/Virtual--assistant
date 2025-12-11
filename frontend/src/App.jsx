@@ -6,7 +6,7 @@ import Customize from './pages/Customize';
 import Customize2 from './pages/Customize2';
 import Home from './pages/Home';
 import Chat from './pages/Chat';   // ✅ ADD CHAT PAGE
-import { userDataContext } from './context/userContext';
+import { userDataContext } from './context/UserContext';
 
 function App() {
   const { userData } = useContext(userDataContext);
